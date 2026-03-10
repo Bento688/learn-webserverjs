@@ -1,6 +1,6 @@
 const MiniExpress = require("./miniexpress");
 
-const MiniExpress = new MiniExpress();
+const app = new MiniExpress();
 
 const mockDB = [
   { id: 1, name: "Keyboard" },
